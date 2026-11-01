@@ -32,8 +32,8 @@ something touched the file. Tools like Tripwire and AIDE do the same thing on a 
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/file-integrity-monitor.git
-cd file-integrity-monitor
+git clone https://github.com/relaxcyber/file_monitor.git
+cd file_monitor
 python -m venv .venv
 source .venv/bin/activate        # on Windows: .venv\Scripts\activate
 pip install -e .
@@ -102,7 +102,7 @@ This makes it easy to use the tool inside scripts.
 ## Project structure
 
 ```
-file-integrity-monitor/
+file_monitor/
 ├── fim/
 │   ├── __init__.py
 │   ├── __main__.py     # python -m fim
