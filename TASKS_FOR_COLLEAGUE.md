@@ -9,8 +9,8 @@ Everyone must be able to see who did what, so please commit with your own GitHub
 ## One time setup
 
 ```bash
-git clone https://github.com/<donald-username>/file-integrity-monitor.git
-cd file-integrity-monitor
+git clone https://github.com/relaxcyber/file_monitor.git
+cd file_monitor
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -e .
